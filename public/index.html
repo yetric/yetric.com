@@ -8,7 +8,7 @@
     <style type="text/css">
         body {
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            text-align: center;
+
             font-size: 18px;
             line-height: 1.4;
             color: #555;
@@ -22,7 +22,14 @@
         }
 
         h1, h2, h3, h4, h5, h6 {
+            text-align: center;
+            margin: 12px 0;
             color: #000;
+            line-height: 1.1;
+        }
+
+        h1:first-child {
+            margin-top:0;
         }
 
         .lead {
@@ -35,11 +42,23 @@
         hr {
             border: 0 solid #eaeaea;
             border-top-width: 1px;
+            -webkit-margin-before: 18px;
+            -webkit-margin-after: 18px;
         }
 
         .tagline {
-            font-weight: 100;
+            font-weight: 300;
             color: #165d1d;
+        }
+
+        /* Mobile */
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            .lead {
+                font-size: 20px;
+            }
+            .tagline {
+                font-size: 21px;
+            }
         }
 
     </style>
