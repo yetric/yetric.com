@@ -1,0 +1,19 @@
+{
+  "name": "yetric.com",
+  "version": "1.0.0",
+  "description": "www-site for yetric.com",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "cd public; python -m SimpleHTTPServer 8009"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetric/yetric.com.git"
+  },
+  "author": "Mattias Hising",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/yetric/yetric.com/issues"
+  },
+  "homepage": "https://github.com/yetric/yetric.com#readme"
+}
