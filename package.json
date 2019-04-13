@@ -27,9 +27,12 @@
     "express": "^4.16.4",
     "ts-node-dev": "^1.0.0-pre.32",
     "twig": "^1.13.2",
-    "typescript": "^3.4.3"
+    "typescript": "^3.4.3",
+    "compression": "latest"
   },
   "devDependencies": {
-    "@types/twig": "^1.12.2"
+    "@types/compression": "0.0.36",
+    "@types/twig": "^1.12.2",
+    "prettier": "^1.17.0"
   }
 }
