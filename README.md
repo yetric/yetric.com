@@ -1,3 +1,3 @@
 # yetric.com
 
-My companies public (static) website
+My companies public ((no longer fully) static) website
