@@ -4,16 +4,28 @@
   "description": "www-site for yetric.com",
   "main": "index.js",
   "scripts": {
-    "devserver": "cd public; python -m SimpleHTTPServer 8009"
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./server/app.ts",
+    "prod": "tsc && node build/app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yetric/yetric.com.git"
   },
   "author": "Mattias Hising",
-  "license": "None",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/yetric/yetric.com/issues"
   },
-  "homepage": "https://github.com/yetric/yetric.com#readme"
+  "homepage": "https://github.com/yetric/yetric.com#readme",
+  "keywords": [
+    "Yetric.com",
+    "website"
+  ],
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.3"
+  }
 }
