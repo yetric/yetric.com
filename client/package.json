@@ -1,0 +1,13 @@
+{
+  "name": "yetric-www-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "",
+    "build": "",
+    "test": ""
+  },
+  "author": "Mattias Hising <mattias@yetric.com>",
+  "license": "MIT"
+}
