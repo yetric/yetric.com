@@ -10,3 +10,4 @@ gen
 node_modules
 build
 dist
+views/main.twig

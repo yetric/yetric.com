@@ -1,53 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+{% extends "main.twig" %}
+{% block main_head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <title>{% block title %}Yetric Metrics - Data-driven User Experience{% endblock %} - Yetric AB</title>
     <meta name="google-site-verification" content="2RPswzmUtzf52HoRqq0iLczseA7UEQZXA7ZMuMDAErc" />
     <link rel="shortcut icon" href="/favicon.png">
-    <link rel="stylesheet" href="/css/style.css" />
-</head>
-<body>
-<a href="/" class="logo"><h1>Yetric AB</h1></a>
-<h2 class="tagline">Yetric Metrics - Data Driven User Experience</h2>
-
-<div class="alert">
-    <h3>What type of Analytics solution do you use?</h3>
-    <p>Care to take part in a <strong>short questionnaire</strong>? Anonymous, no registration required.</p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdINxDazdo383p_5UQMKHANHQXHYuI_hhmCLxODXH0sW3jV8g/viewform?usp=sf_link" target="_blank">Take me there!</a>
-</div>
-{% block content %}
 {% endblock %}
-<hr />
+{% block main_body %}
+    <a href="/" class="logo"><h1>Yetric AB</h1></a>
+    <h2 class="tagline">Yetric Metrics - Data Driven User Experience</h2>
 
-<div class="box">
-    <h3>Interested?</h3>
-    <p>We help product owners by offering consulting in product ownership and tech implementation for adding metrics that enables a better user experience centered approach to your product development process</p>
-    <p>Let's talk! <a href="mailto:mattias@yetric.com">mattias@yetric.com</a></p>
-</div>
+    <div class="alert">
+        <h3>What type of Analytics solution do you use?</h3>
+        <p>Care to take part in a <strong>short questionnaire</strong>? Anonymous, no registration required.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdINxDazdo383p_5UQMKHANHQXHYuI_hhmCLxODXH0sW3jV8g/viewform?usp=sf_link" target="_blank">Take me there!</a>
+    </div>
+    {% block content %}
+    {% endblock %}
+    <hr />
 
-<nav>
-    <ul>
-        <li><a href="#user-experience">User Experience</a></li>
-        <li><a href="#acqusition">Acquisition</a></li>
-        <li><a href="#onboarding">Onboarding</a></li>
-        <li><a href="#engagement">Engagement</a></li>
-        <li><a href="#retention">Retention</a></li>
-    </ul>
-</nav>
+    <div class="box">
+        <h3>Interested?</h3>
+        <p>We help product owners by offering consulting in product ownership and tech implementation for adding metrics that enables a better user experience centered approach to your product development process</p>
+        <p>Let's talk! <a href="mailto:mattias@yetric.com">mattias@yetric.com</a></p>
+    </div>
 
-<div id="footer">
-    <p>&copy; {{ now|date('Y') }} - <a href="/">Yetric AB</a><br />
-        <a href="https://twitter.com/yetriccom" target="_blank">Twitter</a> -
-        <a href="https://www.facebook.com/yetricapp" target="_blank">Facebook</a> -
-        <a href="https://github.com/yetric" target="_blank">Github</a> -
-        <a href="https://yetric.net/" target="_blank">Blog</a>
-    </p>
-</div>
+    <nav>
+        <ul>
+            <li><a href="#user-experience">User Experience</a></li>
+            <li><a href="#acqusition">Acquisition</a></li>
+            <li><a href="#onboarding">Onboarding</a></li>
+            <li><a href="#engagement">Engagement</a></li>
+            <li><a href="#retention">Retention</a></li>
+        </ul>
+    </nav>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103000963-1"></script>
-<script src="/js/script.js"></script>
-</body>
-</html>
+    <div id="footer">
+        <p>&copy; {{ now|date('Y') }} - <a href="/">Yetric AB</a><br />
+            <a href="https://twitter.com/yetriccom" target="_blank">Twitter</a> -
+            <a href="https://www.facebook.com/yetricapp" target="_blank">Facebook</a> -
+            <a href="https://github.com/yetric" target="_blank">Github</a> -
+            <a href="https://yetric.net/" target="_blank">Blog</a>
+        </p>
+    </div>
+{% endblock %}

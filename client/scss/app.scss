@@ -1,0 +1,150 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+  max-width: 640px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+a {
+  color: #036;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  margin: 40px 0 12px 0;
+  color: #000;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+h2:not(.tagline) {
+  font-size: 32px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+h1:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.lead {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+.lead strong {
+  font-weight: 400;
+}
+
+hr {
+  border: 0 solid #eaeaea;
+  border-top-width: 1px;
+  -webkit-margin-before: 18px;
+  -webkit-margin-after: 18px;
+}
+
+.tagline {
+  font-weight: 300;
+  color: #444;
+  margin: 20px auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 12px 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 6px;
+  font-size: 14px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+}
+
+#footer {
+  font-size: 14px;
+  text-align: center;
+  color: #999;
+}
+
+#footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+  height: 80px;
+  margin: 20px auto;
+  background-image: url("../img/logotype-black.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -10000em;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .lead {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .tagline {
+    font-size: 21px;
+  }
+}
+
+.box {
+  margin: 20px 0;
+  padding: 20px;
+  background: #eefeeb;
+  border: 1px solid #b9d7bd;
+  text-align: center;
+}
+
+.box h3 {
+  margin-top: 12px;
+  font-size: 28px;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 22px;
+  border-radius: 4px;
+  background-color: #d9edf7;
+  border: 1px solid #bce8f1;
+  color: #31708f;
+}
+
+.alert h3 {
+  margin: 0 0 12px 0;
+  text-align: left;
+  color: #265871;
+}

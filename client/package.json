@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development",
     "build": "",
     "test": "",
     "tsc": "tsc"
@@ -12,15 +12,22 @@
   "author": "Mattias Hising <mattias@yetric.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^11.13.4",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "html-webpack-harddisk-plugin": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.17.0",
+    "resolve-url-loader": "^3.1.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "ts-loader": "^5.3.3",
     "typescript": "^3.4.3",
     "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.0"
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
   }
 }

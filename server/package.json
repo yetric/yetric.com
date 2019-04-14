@@ -1,5 +1,5 @@
 {
-  "name": "yetric.com",
+  "name": "yetric-www-server",
   "version": "1.0.0",
   "description": "www-site for yetric.com",
   "main": "index.js",
