@@ -1,0 +1,183 @@
+:root {
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+}
+body {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--nord0);
+    background-color: var(--nord6);
+    max-width: 640px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+a {
+    color: #317ac3;;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Muli', sans-serif;
+    margin: 40px 0 12px 0;
+    color: var(--nord3);
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+h2:not(.tagline) {
+    font-size: 32px;
+}
+
+h2 span {
+    color: #f12663;
+}
+
+h1:first-child {
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.lead {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.lead strong {
+    font-weight: 400;
+}
+
+hr {
+    border: 0 solid #eaeaea;
+    border-top-width: 1px;
+    -webkit-margin-before: 18px;
+    -webkit-margin-after: 18px;
+}
+
+.tagline {
+    display: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #828282;
+    margin-top:0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 12px 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 6px;
+    font-size: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+}
+
+#footer {
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
+
+#footer a {
+    color: #666;
+    text-decoration: none;
+}
+
+.logo {
+    display:block;
+    width: 240px;
+    margin: 20px auto;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Mobile */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .lead {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .tagline {
+        font-size: 21px;
+    }
+}
+
+.box {
+    margin: 20px 0;
+    padding: 20px;
+    background: #396ce9;
+    color: var(--nord4);
+    text-align: center;
+}
+
+.box h3 {
+    color: var(--nord4);
+    margin-top:12px;
+    font-size: 28px;
+}
+
+.box a {
+    color: var(--nord6);
+}
+
+img.fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.credit {
+    font-size: 12px;
+    color: var(--nord3);
+}
+
+.credit a {
+    color: var(--nord3);
+}
+
+.nav {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav li {
+    padding: 4px;
+}
+
+.nav li a {
+    text-decoration: none;
+}
