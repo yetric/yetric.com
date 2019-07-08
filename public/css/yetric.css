@@ -179,3 +179,13 @@ img.fluid {
 .nav li a {
     text-decoration: none;
 }
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--nord6);
+    background-color: var(--nord11);
+    line-height: 38px;
+    padding: 0 12px;
+    font-size: 14px;
+}
