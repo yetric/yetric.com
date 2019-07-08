@@ -48,7 +48,7 @@ h2:not(.tagline) {
     font-size: 32px;
 }
 
-h2 span {
+h1 span, h2 span, h3 span {
     color: #f12663;
 }
 
