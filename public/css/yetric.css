@@ -75,11 +75,10 @@ hr {
 }
 
 .tagline {
-    display: none;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 300;
-    color: #828282;
-    margin-top:0;
+    color: #62656a;
+    margin:0 0 20px 0;
 }
 
 nav ul {
