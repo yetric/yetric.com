@@ -193,10 +193,6 @@ img.fluid {
 
 .mauticform-button {
     margin-left: auto;
-    border: none;
-    text-transform: uppercase;
-    letter-spacing: .09em;
-    border-radius: 2px;
 }
 
 .mauticform-row {
