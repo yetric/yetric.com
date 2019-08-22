@@ -264,4 +264,8 @@ img.fluid {
     hr {
         border-top-color: #5d667d;
     }
+
+    .logo img {
+        filter: invert(100%);
+    }
 }
