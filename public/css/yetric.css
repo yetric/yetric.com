@@ -260,4 +260,8 @@ img.fluid {
     a {
         color: #309fe9;
     }
+
+    hr {
+        border-top-color: #5d667d;
+    }
 }
